@@ -8,11 +8,11 @@ AnswerText.propTypes = {
   onClick: func.isRequired
 }
 
-function AnswerText(props) {
+function AnswerText({answerText, onClick}) {
   return (
     <div className="answer-text">
-      <p>{props.answerText}</p>
-      <button onClick={props.onClick}>Next</button>
+      <p>{answerText}</p>
+      <button onClick={onClick}>Next</button>
     </div>
   );
 }

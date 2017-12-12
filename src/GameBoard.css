@@ -1,0 +1,6 @@
+@media (max-width: 500px) {
+  .gameboard {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

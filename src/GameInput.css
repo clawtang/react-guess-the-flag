@@ -13,3 +13,18 @@ form {
 .radio {
   margin: 0 1em;
 }
+
+@media (max-width: 500px) {
+  form {
+    width: 90vw;
+    flex-direction: column;
+    /*align-items: center;*/
+    padding: 0 1em;
+  }
+  .radio {
+    margin: .5em;
+  }
+  button {
+    margin-top: .5em;
+  }
+}

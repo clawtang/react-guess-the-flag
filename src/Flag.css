@@ -6,10 +6,21 @@
   height: 50vh;
   max-width: 60vw;
   margin: 3em auto;
-  /*background-color: #aaa;*/
+  /*padding: auto 10px;*/
 }
 
 .flag-image {
   border: 2px solid black;
-  width: 500px;
+  max-width: 500px;
+  /*margin: auto 10px;*/
+  /*width: 40vw;*/
+}
+
+@media (max-width: 500px) {
+  .flag-container {
+    height: auto;
+  }
+  .flag-image {
+    max-width: 90vw;
+  }
 }
