@@ -1,0 +1,10 @@
+.answer-text {
+  margin: 2em auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  margin: 0 2em;
+}

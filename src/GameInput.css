@@ -1,0 +1,15 @@
+.form-group {
+  /*width: 60vw;*/
+  margin: 2em auto;
+  display: block;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.radio {
+  margin: 0 1em;
+}

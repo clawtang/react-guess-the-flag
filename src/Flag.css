@@ -1,0 +1,15 @@
+.flag-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  height: 50vh;
+  max-width: 60vw;
+  margin: 3em auto;
+  /*background-color: #aaa;*/
+}
+
+.flag-image {
+  border: 2px solid black;
+  width: 500px;
+}
